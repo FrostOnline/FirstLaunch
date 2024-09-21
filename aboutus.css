@@ -1,0 +1,74 @@
+.main1{
+
+    background: url(BG3.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head{
+    text-decoration: none;
+    color: black;
+    width: 400px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about{
+    color: rgb(0, 0, 0);
+    width: 600px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.select{
+    width: 600px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+    margin-left: 700px;
+    text-align: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 250, 54);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+
+}
+
+ul li a:hover{
+    color: black;
+    
+}
+
