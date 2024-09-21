@@ -19,7 +19,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="#">LIST OF COMPANY</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=FzG4uDgje3M&list=PLUA-kRExuybkbBOhMJFilnXBV2cYvK3kW">ABOUT US</a></li>
+                    <li><a href="#" id="about-us-link">ABOUT US</a></li>
                     <li><a href="#">LOGIN</a></li>
                     <li><a href="#">REGISTER</a></li>
                 </ul>
@@ -39,6 +39,20 @@
 
             </div>
     </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const aboutUsLink = document.getElementById('about-us-link');
+
+        // Add a click event listener to the "About Us" link
+        aboutUsLink.addEventListener('click', function (event) {
+            // Prevent the default link behavior (i.e., navigating to "#")
+            event.preventDefault();
+
+            // Redirect the user to the YouTube playlist URL
+            window.location.href = 'https://www.youtube.com/watch?v=FzG4uDgje3M&list=PLUA-kRExuybkbBOhMJFilnXBV2cYvK3kW';
+        });
+    });
+</script>
 
 </body>
 </html>
